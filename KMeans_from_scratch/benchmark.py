@@ -76,7 +76,7 @@ def plot_clustered_data(
             b = random.randint(0, 10) / 10.
             rgba = (r,g,b,alpha)
             if rgba in used_colors:
-                print("Color already exist when cluster number is: ", cluster_number)
+                # print("Color already exists")
                 cluster_number -= 1
                 continue
             else:
